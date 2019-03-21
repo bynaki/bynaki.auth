@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+const token = require('../dist/index').token
+
+token(...process.argv.slice(2))
