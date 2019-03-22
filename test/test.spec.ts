@@ -55,7 +55,7 @@ test('expired', t => {
 })
 
 test('from file', t => {
-  const auth = new Authorizer('./jwtconfig.json')
+  const auth = new Authorizer('./jwtconfig.base.json')
   const payload: Payload = {
     user: 'naki',
     permissions: ['level01'],

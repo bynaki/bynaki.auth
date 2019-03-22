@@ -1,6 +1,6 @@
 {
   "name": "bynaki.auth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "My Authentication.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,8 +18,7 @@
   "keywords": [
     "node",
     "typescript",
-    "module",
-    "boilerpalte"
+    "module"
   ],
   "license": "MIT",
   "scripts": {
